@@ -3,10 +3,50 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+
   </head>
   <body ng-controller="mainCtrl">
-    <h1>Onboard Buddy</h1>
+    <header class="container">
 
-    <script src="bower_components/angular.js" charset="utf-8"></script>
+    </header>
+    <main class="container">
+      <div class="row d-flex">
+        <div class="flex-column col-sm-6 offset-sm-3 ">
+          <div class="card login">
+            <h2>Login</h2>
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email Address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </main>
+    <footer>
+
+    </footer>
+
+
+
+    <script src="./bower_components/jquery/dist/jquery.js" charset="utf-8"></script>
+    <script src="./bower_components/tether/dist/js/tether.js" charset="utf-8"></script>
+    <script src="./bower_components/bootstrap/dist/js/bootstrap.js" charset="utf-8"></script>
+    <script src="bower_components/angular/angular.js" charset="utf-8"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js" charset="utf-8"></script>
+    <script src="app.js" charset="utf-8"></script>
+    <script src="mainCtrl.js" charset="utf-8"></script>
+
   </body>
 </html>

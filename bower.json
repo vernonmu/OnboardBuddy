@@ -1,0 +1,22 @@
+{
+  "name": "onboarding",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Mullen",
+    "Vernon <vernon.mullen@siriusxm.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/vernonmu/OnboardBuddy",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.6.5",
+    "bootstrap": "v4.0.0-alpha.6"
+  }
+}

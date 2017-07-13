@@ -1,0 +1,16 @@
+body {
+  background-color: #ccc;
+}
+
+header {
+  padding-top:35px;
+}
+
+header h1 {
+  color: #eee;
+}
+
+.login {
+  padding:40px 20px;
+  margin-top:15%;
+}
